@@ -13,7 +13,7 @@ Console.WriteLine("[S]ubtract numbers");
 Console.WriteLine("[M]ultiply numbers");
 var choice = Console.ReadLine();
 
-if(EqualsCaseInsensitive(choice,"A"))
+if (EqualsCaseInsensitive(choice, "A"))
 {
     var sum = number1 + number2;
     PrintFinalEquation(number1, number2, sum, "+");
