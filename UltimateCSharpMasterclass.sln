@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rectangles", "OOP\Rectangle
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_NamesSingleResponsibilityPrinciple", "02_NamesBeforeRefactorToSRP\02_NamesSingleResponsibilityPrinciple.csproj", "{427CB925-FDF8-4784-B932-E95F78231F7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Calculator", "01_Calculator\01_Calculator.csproj", "{A4F9A812-DEC0-4FDC-BFC1-90DD0549E34F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Calculator", "01_Calculator\01_Calculator.csproj", "{A4F9A812-DEC0-4FDC-BFC1-90DD0549E34F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_DiceRollGame", "02_DiceRollGame\02_DiceRollGame.csproj", "{0F4AF6F2-BA01-4943-AA66-4E0B1B318069}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A4F9A812-DEC0-4FDC-BFC1-90DD0549E34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4F9A812-DEC0-4FDC-BFC1-90DD0549E34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4F9A812-DEC0-4FDC-BFC1-90DD0549E34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4AF6F2-BA01-4943-AA66-4E0B1B318069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4AF6F2-BA01-4943-AA66-4E0B1B318069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4AF6F2-BA01-4943-AA66-4E0B1B318069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4AF6F2-BA01-4943-AA66-4E0B1B318069}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
