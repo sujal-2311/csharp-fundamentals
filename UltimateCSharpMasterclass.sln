@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_NamesSingleResponsibilit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Calculator", "01_Calculator\01_Calculator.csproj", "{A4F9A812-DEC0-4FDC-BFC1-90DD0549E34F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_DiceRollGame", "02_DiceRollGame\02_DiceRollGame.csproj", "{0F4AF6F2-BA01-4943-AA66-4E0B1B318069}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_DiceRollGame", "02_DiceRollGame\02_DiceRollGame.csproj", "{0F4AF6F2-BA01-4943-AA66-4E0B1B318069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{64B57FDE-2C1F-4F5D-A170-1417169EC2EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0F4AF6F2-BA01-4943-AA66-4E0B1B318069}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F4AF6F2-BA01-4943-AA66-4E0B1B318069}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F4AF6F2-BA01-4943-AA66-4E0B1B318069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B57FDE-2C1F-4F5D-A170-1417169EC2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B57FDE-2C1F-4F5D-A170-1417169EC2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B57FDE-2C1F-4F5D-A170-1417169EC2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B57FDE-2C1F-4F5D-A170-1417169EC2EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
