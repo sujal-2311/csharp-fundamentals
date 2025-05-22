@@ -1,14 +1,31 @@
-﻿var pizza = new Pizza();
-pizza.AddIngredient(new Cheddar());
-pizza.AddIngredient(new TomatoSauce());
-pizza.AddIngredient(new Mozzarella());
+﻿//var pizza = new Pizza();
+//pizza.AddIngredient(new Cheddar());
+//pizza.AddIngredient(new TomatoSauce());
+//pizza.AddIngredient(new Mozzarella());
 
-Console.WriteLine(pizza.Describe());
+//Console.WriteLine(pizza.Describe());
 
-var cheddar = new Cheddar();
-Console.WriteLine(cheddar.PublicMethod());
-//Console.WriteLine(cheddar.ProtectedMethod());
-//Console.WriteLine(cheddar.PrivateMethod());
+//Console.WriteLine("Variable of type Cheddar");
+//Cheddar cheddar = new Cheddar();
+//Console.WriteLine(cheddar.Name);
+
+//Console.WriteLine("Variable of type ingredient");
+//Ingredient ingredient = new Cheddar();
+//Console.WriteLine(ingredient.Name);
+
+var ingredients = new List<Ingredient>
+{
+    new Cheddar(),
+    new Mozzarella(),
+    new TomatoSauce()
+};
+
+foreach (Ingredient ingredient in ingredients)
+{
+    Console.WriteLine(ingredient.Name);
+}
+
+
 
 public class Pizza
 {
@@ -25,6 +42,7 @@ public class Pizza
 
 public class Ingredient
 {
+    public virtual string Name { get; } = "some ingredient";
     public string PublicMethod() => "This is Public in the ingredient class";
 
     protected string ProtectedMethod() => "This is Protected in the ingredient class";
@@ -34,7 +52,7 @@ public class Ingredient
 
 public class Cheddar : Ingredient
 {
-    public string Name => "Cheddar cheese";
+    public override string Name => "Cheddar cheese";
     public int AgedForMonths { get; }
     public void UseMethodsFromBaseClass()
     {
@@ -52,6 +70,6 @@ public class TomatoSauce : Ingredient
 
 public class Mozzarella : Ingredient
 {
-    public string Name => "Cheddar cheese";
+    public override string Name => "Cheddar cheese";
     public bool IsLight { get; }
 }
